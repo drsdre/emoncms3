@@ -43,7 +43,7 @@ function show_dashboard()
 
 function onetime(apikey_read)
 {
-  $('.rawdata,.bargraph,.zoom,.realtime,.simplezoom,.threshold,.orderthreshold,.orderbars,.stacked,.multigraph,.histgraph,.smoothie').each(function(index)
+  $('.rawdata,.bargraph,.zoom,.realtime,.simplezoom,.threshold,.orderthreshold,.orderbars,.stacked,.multigraph,.dailyhistogram,.histgraph,.smoothie,.comparison').each(function(index)
   {
 
     var id = $(this).attr("id");

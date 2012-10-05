@@ -187,7 +187,7 @@
           if (view==1) set_annual_view();
           if (view==2) set_monthly_view();
           if (view==3) set_daily_view();
-          if (view==4) set_daily_view();
+          if (view==4) { view=3; set_daily_view(); }
         });
     
         //--------------------------------------------------------------
@@ -205,7 +205,7 @@
             if (view==1) $("#out").html(item.datapoint[1].toFixed(0)+" kWh | "+mdate.format("mmm yyyy")+" | "+(item.datapoint[1]/months.days[item.dataIndex]).toFixed(1)+" kWh/d ");
             if (view==2) $("#out").html(item.datapoint[1].toFixed(1)+" kWh | "+currency+(item.datapoint[1]*price).toFixed(2)+" | "+currency+(item.datapoint[1]*price*365).toFixed(0)+"/y | "+mdate.format("dS mmm yyyy"));
             if (view==3) $("#out").html(item.datapoint[1].toFixed(0)+" W");
-            if (view==5) $("#out").html(item.datapoint[1].toFixed(1)+" kWh | £"+(item.datapoint[1]*price).toFixed(2)+" | "+item.datapoint[0]+" W");
+            if (view==5) $("#out").html(item.datapoint[1].toFixed(1)+" kWh | "+currency+(item.datapoint[1]*price).toFixed(2)+" | "+item.datapoint[0]+" W");
           }
         });
 

@@ -156,6 +156,22 @@
       "html":""
     },
 
+    "dailyhistogram": 
+    {
+      "offsetx":0,"offsety":0,"width":400,"height":400,
+      "menu":"Visualisations",
+      "options":["power","kwhd","whw","currency","pricekwh"],
+      "html":""
+    },
+    
+    "comparison": 
+    {
+      "offsetx":0,"offsety":0,"width":400,"height":300,
+      "menu":"Visualisations",
+      "options":["power","kwhd","currency","pricekwh"],
+      "html":""
+    },
+    
     "smoothie": 
     {
       "offsetx":0,"offsety":0,"width":400,"height":300,

@@ -194,6 +194,10 @@ global $path;
           <input class="apitext" name="kwhd" type='text'  />
           &whw=
           <input class="apitext" name="whw" type='text'  />
+          &amp;currency=
+          <input class="apitext" name="currency" type='text' />
+          &amp;pricekwh=
+          <input class="apitext" name="pricekwh" type='text' />
         </td>
         <td>
           <input type="submit" value=">" class="btn btn-info"/>
